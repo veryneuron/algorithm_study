@@ -39,3 +39,16 @@ for r in range(M):
             else:
                 blue += bfs(r,c)
 print(white, blue)
+
+# 다른 사람의 풀이 - 상하좌우 쉽게 하는방법
+# for dx, dy in (-1,0),(1,0),(0,-1),(0,1):   
+#     move_x = x+dx
+#     move_y = y+dy
+#     if move_x < 0 or move_x >= M or move_y < 0 or move_y >= N:
+#         continue
+    
+#     if flag[move_x][move_y] and field[move_x][move_y] == color:
+#         flag[move_x][move_y] = False
+#         color_dict[color] += 1
+#         dfs(move_x,move_y,flag,color, depth+1)
+# 처럼 하면 됨!

@@ -5,6 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch QuickStart",
+            "request": "launch",
+            "mainClass": "QuickStart",
+            "projectName": "algorithm_study_b42cd8de"
+        },
+        {
+            "type": "java",
+            "name": "Java: Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
